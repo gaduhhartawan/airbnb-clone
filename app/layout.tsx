@@ -17,6 +17,8 @@ export const metadata = {
   description: "Airbnb clone",
 };
 
+export const dynamic = "auto";
+
 export default async function RootLayout({
   children,
 }: {
